@@ -1,3 +1,6 @@
+#variables 
+src/env.jsx
+
 # Logs
 logs
 *.log
