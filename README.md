@@ -15,6 +15,11 @@ When prompted first enter
 Then select `react`
 Follow along then edit `tailwind.config.js`
 
+Moreover setup a `env.jsx` file and add the link to your API here 
+```
+const api_link= "yourlinkgoeshere";
+export default api_link;
+```
 ## Host the website
 
 You will have to edit your DNS records. Can't give any tutorial for your domain as it would be different for every provider, but you will figure it out by yourself.
@@ -42,4 +47,4 @@ Also, for AWS edit `vite.config.js` and add:
 
 # Issues with multipage 
 
-Consult vite documentation on how to set it up. 
+Consult vite documentation on how to set it up. It should not be entirely different from the standard React thing. 
