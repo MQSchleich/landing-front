@@ -1,7 +1,6 @@
 import React from 'react'
-import SubmitButton from './SubmitButton';
-import api_link from './env.jsx'
-//import postNewsletter from './api.jsx';
+import SubmitButton from './SubmitButton.jsx';
+import api_link from '../env.jsx'
 
 function handleErrors(response) {
     console.log(JSON.stringify(response))
