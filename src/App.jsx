@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout, Landing, NewsletterVer, NewsletterLeave, NoPage } from "./pages";
+import { Layout, Landing, NewsletterVer, NewsletterSignOff, NewsletterLeave, NoPage } from "./pages";
 
 function postNewsletter(data) {
     alert('We sent you an invitation to'+data+'!');
@@ -14,7 +14,8 @@ function App(props) {
 	  <Route path="/" element={<Layout />}>
 		<Route index element={<Landing />} />
 		<Route path="newsletter" element={<NewsletterVer />} />
-		<Route path="newsetter/leave" element={<NewsletterLeave />} />
+		<Route path="newsletter/leave" element={<NewsletterSignOff />} />
+		<Route path="newsletter/leave/confirm/" element={<NewsletterLeave />} />
 		<Route path="*" element={<NoPage />} />
 	  </Route>
 	</Routes>

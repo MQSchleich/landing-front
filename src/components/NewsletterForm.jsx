@@ -24,7 +24,6 @@ class NewsletterForm extends React.Component {
     handleSubmit(event) {
       const mail = this.state.value
       const request = {'email': mail}
-      console.log(JSON.stringify(request))
       fetch(api_link+'api/newsletter', 
       { method: 'POST', 
       body: JSON.stringify(request),
