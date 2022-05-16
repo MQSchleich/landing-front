@@ -13,7 +13,7 @@ function App(props) {
 	<Routes>
 	  <Route path="/" element={<Layout />}>
 		<Route index element={<Landing />} />
-		<Route path="newsletter" element={<NewsletterVer />} />
+		<Route exact path='/newsletter/:token' component={NewsletterVer} />
 		<Route path="newsetter/leave" element={<NewsletterLeave />} />
 		<Route path="*" element={<NoPage />} />
 	  </Route>
