@@ -1,7 +1,7 @@
 # Landing Page React Front End 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![React CI](https://github.com/sail-black/landing-front/actions/workflows/cd.yml/badge.svg)](https://github.com/sail-black/landing-front/actions/workflows/cd.yml)
 
 This is the front end for the landing page with postgreSQL and Flask backend. 
 
