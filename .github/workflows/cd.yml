@@ -18,10 +18,7 @@ jobs:
     
     steps:
       - uses: actions/checkout@v1
-      - run: 'echo "$ENV" > src/env.jsx'
-        shell: bash
-        env:
-          SSH_KEY: ${{secrets.ENV}}
+      - run:  sh setEnvironment.sh ${{ secrets.ENV }}
       - run: npm install
       - run: npm run build
       - uses: jakejarvis/s3-sync-action@master
