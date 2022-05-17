@@ -5,6 +5,11 @@
 
 This is the front end for the landing page with postgreSQL and Flask backend. 
 
+## Prepare 
+On Ubuntu run 
+```
+sudo apt install nodejs npm
+```
 ## How to use 
 
 ```

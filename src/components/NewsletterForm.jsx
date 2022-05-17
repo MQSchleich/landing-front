@@ -55,7 +55,7 @@ class NewsletterForm extends React.Component {
                         id="member_email"
                         value={this.state.value} 
                         onChange={this.handleChange}
-                        className="text-2xl text-black placeholder:text-black placeholder:italic py-4 px-6 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-90 focus:bg-opacity-90 duration-150 md:rounded-tr-none md:rounded-br-none rounded-full outline-none mb-4 md:mb-0"
+                        className="text-2xl text-black placeholder:text-black placeholder:italic py-4 px-6 md:px-10 lg:py-6 lg:px-12 bg-secondary bg-opacity-90 focus:bg-opacity-90 duration-150 md:rounded-tr-none md:rounded-br-none rounded-full outline-none mb-4 md:mb-0"
                     />
                     <SubmitButton/>
                     
