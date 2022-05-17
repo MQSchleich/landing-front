@@ -3,10 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout, Landing, NewsletterVer, NewsletterSignOff, NewsletterLeave, NoPage } from "./pages";
 import Privacy from "./pages/Privacy";
 
-function postNewsletter(data) {
-    alert('We sent you an invitation to'+data+'!');
-    fetch( api_link, { method: 'POST', headers: { accept: 'application/json', body: JSON.stringify({ email: data }) } })
-  }
 function App(props) {
 
   return (

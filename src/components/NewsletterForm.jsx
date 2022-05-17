@@ -62,7 +62,7 @@ class NewsletterForm extends React.Component {
                 </div>
 
                 <div className="opacity-75">
-                    By subscribing, you agree with our <a target="_blank" href="https://www.sail.black/terms" className="hover:opacity-80 duration-150">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy" className="hover:opacity-80 duration-150">Privacy Policy</a>.
+                    By subscribing, you agree with our <a target="_blank" href="https://www.sail.black/privacy" className="hover:opacity-80 duration-150">Terms of Service</a> and <a target="_blank" href="https://www.sail.black/privacy" className="hover:opacity-80 duration-150">Privacy Policy</a>.
                 </div>
 
             </form>
