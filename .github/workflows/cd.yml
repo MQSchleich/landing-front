@@ -21,7 +21,7 @@ jobs:
       - run: 'echo "$ENV" > src/env.jsx'
       - shell: bash
       - env:
-        SSH_KEY: ${{secrets.SSH_KEY}}
+        SSH_KEY: ${{secrets.ENV}}
       - run: npm install
       - run: npm run build
       - uses: jakejarvis/s3-sync-action@master
