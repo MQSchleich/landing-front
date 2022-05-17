@@ -5,6 +5,14 @@
 
 This is the front end for the landing page with postgreSQL and Flask backend. 
 
+
+## Breaking our own rules 
+
+We have not yet figured out how to keep infrastructure credentials for the react app secret, that is why the real CI/CD production pipeline is hidden from you. We know it hurts us, too. We are working on syncing the repos and also omitting the secret one in the long run. 
+
+## Configure the CI/CD 
+
+In your own repo, you have to add `src/env.jsx` file.
 ## Prepare 
 On Ubuntu run 
 ```
