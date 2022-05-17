@@ -17,10 +17,15 @@ function Landing() {return(
      <div className="flex flex-col md:flex-row items-center justify-between">
          <p className="mb-4 md:mb-0 md:text-xl">Built with ⛵️ by sail.black</p>
 
-         <div className="flex -mx-6">
-             <a href="#" className="mx-3 hover:opacity-80 duration-150">About us</a> | 
-             <a href="https://www.sail.black/terms" className="mx-3 hover:opacity-80 duration-150">Privacy</a> | 
-             <a href="#" className="mx-3 hover:opacity-80 duration-150">Contact</a>
+         <div className="flex -mx-4">
+             <a href="https://www.linkedin.com/company/sail-black/" className="mx-3 hover:opacity-80 duration-150">About us</a> | 
+             <a href="./privacy" className="mx-3 hover:opacity-80 duration-150">Privacy</a> | 
+             <a href="mailto:ahoy@sail.black" className="mx-3 hover:opacity-80 duration-150">Contact</a>
+         </div>
+         <div className="flex -mx-4">
+             <a href="https://www.linkedin.com/company/sail-black/" className="mx-3 hover:opacity-80 duration-150"></a> 
+             <a className="mx-3 hover:opacity-80 duration-150"></a> 
+             <a className="mx-3 hover:opacity-80 duration-150"></a>
          </div>
      </div>
  </footer>

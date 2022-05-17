@@ -1,10 +1,23 @@
 # Landing Page React Front End 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![React CI](https://github.com/sail-black/landing-front/actions/workflows/cd.yml/badge.svg)](https://github.com/sail-black/landing-front/actions/workflows/cd.yml)
 
 This is the front end for the landing page with postgreSQL and Flask backend. 
 
+
+## Breaking our own rules 
+
+We have not yet figured out how to keep infrastructure credentials for the react app secret, that is why the real CI/CD production pipeline is hidden from you. We know it hurts us, too. We are working on syncing the repos and also omitting the secret one in the long run. 
+
+## Configure the CI/CD 
+
+In your own repo, you have to add `src/env.jsx` file.
+## Prepare 
+On Ubuntu run 
+```
+sudo apt install nodejs npm
+```
 ## How to use 
 
 ```
