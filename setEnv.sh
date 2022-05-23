@@ -1,0 +1,1 @@
+echo "export default api_link =  '$1'"  > src/env.jsx
